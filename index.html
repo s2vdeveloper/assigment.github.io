@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Home</title>
+
+        <style>
+
+            nav
+            {
+                background-color:rgb(13, 13, 82);
+                width: 100%;
+                display: flex;
+            }
+            .logo
+            {
+                width: 40%;
+            }
+            .menu-links
+            {
+                list-style: none;                
+                display: flex;
+                
+            }
+
+            .menu-links li
+            {
+                width: 60px;
+                padding: 10px 20px;
+                
+            }
+            .menu a
+            {
+                text-decoration: none;
+                color: antiquewhite;
+                
+            }
+            form
+            {
+                display: flex;
+                background-color:rgb(13, 13, 82);
+                height: 50px;
+                margin-top: 0px;
+            }
+            input
+            {
+                margin-left: 30px;
+                padding: 5px 10px;
+                width: 100px;
+
+            }
+            button
+            {
+                margin-left: 30px;
+                padding: 5px 10px;
+                border-radius: 5px;
+                background-color: gold;
+                
+                
+            }
+            .option a
+            {
+                color: white;
+            }
+           
+        </style>
+    </head>
+
+    <body>
+        <header style="width: 100%;">
+
+            <nav>
+
+                <div class="logo"> <img src="Logo.png" alt="logo" style="width: 60px; height: 30px;"></div>
+
+                <div class="menu">
+                    <ul class="menu-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>                 
+        
+        </header>
+
+        <body>
+
+            <main>
+                <div class="banner" style="width: 100%; height: 500px;">
+                    <img src="banner-image.png" alt="real state banner" style="width: 100%; height: 500px;">
+                </div>
+                
+                <form>
+                    <div>
+                        <input type="textbox" placeholder="City">
+                    </div>
+
+                    <div>
+                        <input type="textbox" placeholder="USD">
+                    </div>
+
+                    <div>
+                        <input type="textbox" placeholder="USD">
+                    </div>
+
+                    <div class="option">
+                        <input type="radio" name="type" id="type" value="For sale"><a>For Sale</a>
+                        <input type="radio" name="type" id="type" value="For Rent"><a>For Rent</a>
+                    </div>
+                    <div>
+                        <button type="submit">Search</button>
+                    </div>
+
+                    
+                </form>
+            </main>
+            
+        </body>
+    
+    
+    </body>
+
+
+
+
+
+</html>
